@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"AJAX","permalink":"/blog/2023/02/16/ajax"},{"title":"Spring\u603b\u7ed3","permalink":"/blog/2023/02/16/spring"},{"title":"SpringMVC\u603b\u7ed3","permalink":"/blog/2023/02/16/springmvc"}]}')}}]);

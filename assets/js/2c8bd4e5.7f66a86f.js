@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[199],{8271:s=>{s.exports=JSON.parse('{"label":"springMVC","permalink":"/blog/tags/spring-mvc","allTagsPath":"/blog/tags","count":2}')}}]);
