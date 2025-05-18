@@ -1,0 +1,63 @@
+ /* 移动端适配 */
+ @media screen and (max-width:1380px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+
+     body {
+         font-size: 0.16rem;
+     }
+
+     .container {
+         left: 0;
+         right: 0;
+         box-sizing: border-box;
+         backdrop-filter: blur(0.05rem);
+         background: hsla(0, 0%, 100%, 0.15);
+         border: 1px solid #ffffff2e;
+         box-shadow: 0 0.06rem 0.15rem 0 #8e8e8e30;
+         position: fixed;
+     }
+
+     .topbar {
+         box-sizing: border-box;
+         width: 3.54rem;
+         height: 0.64rem;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 0 0.2rem;
+     }
+
+     .intro {
+         font-weight: 600;
+         font-size: 0.26rem;
+     }
+
+     main {
+         padding-top: 0.64rem;
+     }
+
+     article {
+         margin: 0 auto;
+         width: 3.42rem;
+         text-align: center;
+     }
+
+     article img {
+         width: 3.09rem;
+         height: 4.6rem;
+     }
+
+     footer {
+         height: 1.28rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: #67676c;
+         border-top: 1px solid #e2e2e3;
+     }
+ }

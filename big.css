@@ -1,0 +1,62 @@
+ /* PC适配 */
+ @media screen and (min-width:1381px) {
+     * {
+         margin: 0;
+         padding: 0;
+     }
+
+     body {
+         font-size: 16px;
+     }
+
+     .container {
+         box-sizing: border-box;
+         left: 0;
+         right: 0;
+         backdrop-filter: blur(5px);
+         background: hsla(0, 0%, 100%, 0.15);
+         border: 1px solid #ffffff2e;
+         box-shadow: 0 6px 15px 0 #8e8e8e30;
+         position: fixed;
+     }
+
+     .topbar {
+         box-sizing: border-box;
+         width: 1376px;
+         height: 64px;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 0 20px;
+     }
+
+     .intro {
+         font-weight: 600;
+         font-size: 26px;
+     }
+
+     main {
+         padding-top: 64px;
+     }
+
+     article {
+         margin: 0 auto;
+         width: 1327px;
+         text-align: center;
+     }
+
+     article img {
+         width: 1200px
+     }
+
+     footer {
+         height: 110px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: #67676c;
+         border-top: 1px solid #e2e2e3;
+     }
+ }

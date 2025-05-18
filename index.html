@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="big.css">
+    <link rel="stylesheet" href="small.css">
+    <script>
+        function adaptor() {
+            const layoutViewportWidth = document.documentElement.clientWidth;
+            const rootFontSize = layoutViewportWidth * 100 / 375;
+            document.documentElement.style.fontSize = rootFontSize + 'px';
+        }
+        adaptor();
+        window.onresize = adaptor;
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <span class="intro">sszl 's Blog</span>
+            <a href="https://github.com/LupinThe1st">
+                <svg width="30" height="30" style="fill:#67676c">
+                    <use xlink:href="github-icon.svg#github"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <main>
+        <article>
+            <img src="./emptymesg.svg" alt="">
+        </article>
+    </main>
+    <footer>
+        <span>我是谁？</span>
+        <span>这是一个悲伤的故事,那一年....</span>
+    </footer>
+</body>
+
+</html>
